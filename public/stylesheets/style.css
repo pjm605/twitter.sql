@@ -25,6 +25,27 @@ body {
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
 
+form {
+  padding: 0, 4em, 0, 4em;
+  display: inline-block;
+  margin-top: 1em;
+}
+div.inp {
+  margin: 5px;
+  padding: 1px;
+  display: block;
+  width: 90%;
+  float: left;
+}
+div.inp input {
+  float: right;
+}
+#submit {
+  display: inline-block;
+  width: 8em;
+  margin-top: 1em;
+}
+
 #wrap > .container {
   padding: 60px 15px 0;
 }
